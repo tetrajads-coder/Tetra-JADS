@@ -116,12 +116,12 @@ hr {
 }
 
 /*Titulo Propuesta*/
-card h3 {
+.card h3 {
   margin: .5rem 0;
   color: var(--verde-esmeralda);
 }
 
 /*Descripcion Propuesta*/
-card p {
+.card p {
   color: #fff;
 }
