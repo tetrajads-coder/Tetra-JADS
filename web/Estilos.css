@@ -2,7 +2,7 @@
 :root {
   --verde-esmeralda: #2ecc71;
   --verde-oscuro: #14532d;
-  --negro-suave: #010041;
+  --negro-suave: #000000;
   --gris-profundo: #2c2c2c;
   --transicion: 0.3s ease-in-out;
 }
@@ -118,10 +118,10 @@ hr {
 /*Titulo Propuesta*/
 .card h3 {
   margin: .5rem 0;
-  color: var(--verde-esmeralda);
+  color: varvar(--gris-profundo);
 }
 
 /*Descripcion Propuesta*/
 .card p {
-  color: #fff;
+  color: #000000;
 }
