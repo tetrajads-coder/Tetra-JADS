@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TETRA-JADS | Reinventemos juntos</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <!-- Nav minimal -->
+  <nav class="nav-top container-xxl d-flex align-items-center justify-content-between py-3">
+    <div class="brand d-flex align-items-center gap-3">
+      <img src="img/logo_jads_blaco.png" class="logo_blanco" alt="TETRA-JADS" />
+      <span class="brand-name">TETRA-JADS</span>
+    </div>
+
+    <ul class="nav gap-3 d-none d-md-flex">
+      <li class="nav-item"><a href="#hacemos" class="nav-link">Lo que hacemos</a></li>
+      <li class="nav-item"><a href="#sobre" class="nav-link">Quiénes somos</a></li>
+      <li class="nav-item"><a href="#valores" class="nav-link">Valores</a></li>
+      <li class="nav-item"><a href="#numeros" class="nav-link">Números</a></li>
+      <li class="nav-item"><a href="#portafolio" class="nav-link">Portafolio</a></li>
+    </ul>
+
+    <div class="d-flex align-items-center gap-3">
+      <a href="#contacto" class="btn btn-accent-outline d-none d-md-inline-flex">Contacto</a>
+      <button class="navbar-toggler d-inline-flex d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Offcanvas mobile -->
+  <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offnav">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a class="d-block py-2" href="#hacemos" data-bs-dismiss="offcanvas">Lo que hacemos</a>
+      <a class="d-block py-2" href="#sobre" data-bs-dismiss="offcanvas">Quiénes somos</a>
+      <a class="d-block py-2" href="#valores" data-bs-dismiss="offcanvas">Valores</a>
+      <a class="d-block py-2" href="#numeros" data-bs-dismiss="offcanvas">Números</a>
+      <a class="d-block py-2" href="#portafolio" data-bs-dismiss="offcanvas">Portafolio</a>
+      <a class="d-block py-2" href="#contacto" data-bs-dismiss="offcanvas">Contacto</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero container-xxl position-relative overflow-hidden">
+    <!-- shapes decorativas -->
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1 class="display-hero reveal">Haz lo<br/>complejo simple</h1>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-side reveal-delay">
+          <div class="accent-line"></div>
+          <p class="lead">
+            Creamos software que transforma negocios. Desde prototipos rápidos hasta
+            plataformas escalables, combinamos diseño, datos e ingeniería para entregar valor real.
+          </p>
+          <a href="#hacemos" class="link-cta">
+            Descubre lo que hacemos <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- LO QUE HACEMOS (cards) -->
+  <section id="hacemos" class="container-xxl my-5">
+    <div class="grid-cards">
+      <article class="card-spot reveal">
+        <div class="tag">SERVICIO</div>
+        <h3>Software a la medida</h3>
+        <p>Aplicaciones web, backends, paneles admin, integraciones y seguridad.</p>
+        <a href="servicios.html" class="btn btn-accent">Ver detalle</a>
+      </article>
+
+      <article class="card-spot reveal-delay">
+        <div class="tag">SERVICIO</div>
+        <h3>Cloud & DevOps</h3>
+        <p>Microservicios, contenedores, CI/CD y observabilidad para escalar sin fricción.</p>
+        <a href="proyecto.html" class="btn btn-accent">Caso de éxito</a>
+      </article>
+
+      <article class="card-spot reveal-2">
+        <div class="tag">SERVICIO</div>
+        <h3>Experiencias de producto</h3>
+        <p>UX/UI accesible (AA), performance y analítica con KPIs de negocio.</p>
+        <a href="#contacto" class="btn btn-accent">Hablemos</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS (Nombre, Servicios, Propósito + Misión/Visión) -->
+  <section  class="container-xxl my-6">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <h2 class="section-title reveal">Quiénes somos</h2>
+        <p class="">
+          <strong>TETRA-JADS</strong> nos representa como equipo. <em>“TETRA”</em> porque somos
+          <strong>cuatro integrantes</strong>, y <em>“JADS”</em> por las iniciales de
+          <strong>Juan Carlos, Amaury, Diego y Sandoval</strong>.
+        </p>
+        <p class="">
+          Ofrecemos <strong>desarrollo de software a medida</strong>: aplicaciones web, sistemas empresariales
+          y herramientas personalizadas que impulsan eficiencia y una excelente experiencia de usuario.
+        </p>
+        <p class="">
+          Nuestro propósito es transformar ideas en <strong>productos tecnológicos de calidad</strong>
+          que ayuden a personas y organizaciones a crecer.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <div class="accordion acc-dark reveal" id="aboutAcc">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mis">
+                Misión
+              </button>
+            </h2>
+            <div id="mis" class="accordion-collapse collapse show" data-bs-parent="#aboutAcc">
+              <div class="accordion-body">
+                Generar software de alta calidad, intuitivo y que brinde a nuestros clientes una experiencia única y satisfactoria en cada proyecto.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vis">
+                Visión
+              </button>
+            </h2>
+            <div id="vis" class="accordion-collapse collapse" data-bs-parent="#aboutAcc">
+              <div class="accordion-body">
+                Ser una empresa capaz de usar tecnología para resolver problemáticas de la vida diaria mediante el diseño de software.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#obj">
+                Objetivos
+              </button>
+            </h2>
+            <div id="obj" class="accordion-collapse collapse" data-bs-parent="#aboutAcc">
+              <div class="accordion-body">
+                Usar tecnología para resolver problemas reales a través del diseño e implementación de soluciones digitales eficientes y sostenibles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALORES -->
+  <section id="valores" class="container-xxl my-6">
+    <h2 class="section-title reveal">Valores</h2>
+    <div class="values-grid ">
+      <div class="value-chip"><i class="fa-solid fa-handshake-angle"></i> Compromiso</div>
+      <div class="value-chip"><i class="fa-solid fa-lightbulb"></i> Creatividad</div>
+      <div class="value-chip"><i class="fa-solid fa-user-shield"></i> Confianza</div>
+      <div class="value-chip"><i class="fa-solid fa-bolt"></i> Eficiencia</div>
+      <div class="value-chip"><i class="fa-solid fa-people-group"></i> Trabajo en equipo</div>
+      <div class="value-chip"><i class="fa-solid fa-earth-americas"></i> Impacto</div>
+    </div>
+  </section>
+
+  <!-- NÚMEROS (contadores) -->
+  <section id="numeros" class="container-xxl my-6">
+    <h2 class="section-title reveal">Nuestros números</h2>
+    <div class="kpis-grid">
+      <div class="kpi reveal">
+        <div class="kpi-num" data-target="4">0</div>
+        <div class="kpi-label">Integrantes</div>
+      </div>
+      <div class="kpi reveal">
+        <div class="kpi-num" data-target="1">0</div>
+        <div class="kpi-label">Proyectos entregados</div>
+      </div>
+      <div class="kpi reveal">
+        <div class="kpi-num" data-target="3">0</div>
+        <div class="kpi-label"> Ideas de Proyecto</div>
+      </div>
+      <div class="kpi reveal">
+        <div class="kpi-num" data-target="5">0</div>
+        <div class="kpi-label">Industrias atendidas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO (cards que van a otras páginas) -->
+  <section id="portafolio" class="container-xxl my-6">
+    <h2 class="section-title reveal">Portafolio</h2>
+
+    <div class="grid-cards">
+      <!-- Card 1 -->
+      <article class="card-spot reveal">
+        <img
+          src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop"
+          class="w-100 rounded-3 mb-3" alt="equipo de desarrollo">
+        <h3>Compra y venta de Habilidades y Servicios</h3>
+        <p>Atención por medio de .</p>
+        <a href="servicios.html" class="btn btn-accent">Ver detalle</a>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card-spot reveal">
+        <img
+          src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop"
+          class="w-100 rounded-3 mb-3" alt="dashboard">
+        <h3>Sistema de Gestión de Computadoras en Aula</h3>
+        <p> Inventario,  y reportes en tiempo real sobre las computadoras de una institución.</p>
+        <a href="proyecto.html" class="btn btn-accent">Ver proyecto</a>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card-spot reveal">
+        <img
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+          class="w-100 rounded-3 mb-3" alt="codigo">
+        <h3>Guía para elegir carrera</h3>
+        <p>Recomendaciones por intereses y comparaciones de campus por costo y ubicación.</p>
+        <a href="proyecto3.html#guia" class="btn btn-accent">Ver más</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <footer id="contacto" class="container-xxl my-6 py-5 border-top border-opacity-25 border-secondary">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-4">
+      <div>
+        <h3 class="mb-2">Hablemos</h3>
+        <p class="text-muted-acc m-0">tetrajads@gmail.com</p>
+        <p class="text-muted-acc">+52 1 55 1838 1648</p>
+        <p class="text-muted-acc">+52 1 55 2740 8391</p>
+      </div>
+      <a class="btn btn-accent" href="mailto:tetrajads@gmail.com">Escríbenos</a>
+    </div>
+    <p class="tiny mt-4">© 2025 TETRA-JADS</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Animaciones de entrada + Contadores -->
+  <script>
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){ e.target.classList.add('in'); }
+      });
+    }, {threshold:.12});
+    document.querySelectorAll('.reveal, .reveal-delay, .reveal-2').forEach(el=>io.observe(el));
+
+    // KPIs count-up
+    const nums = document.querySelectorAll('.kpi-num');
+    const io2 = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          const el = e.target;
+          const target = +el.dataset.target;
+          let n = 0;
+          const step = Math.max(1, Math.round(target/50));
+          const tick = () => {
+            n += step;
+            if(n >= target){ n = target; }
+            el.textContent = n;
+            if(n < target) requestAnimationFrame(tick);
+          };
+          tick();
+          io2.unobserve(el);
+        }
+      });
+    }, {threshold:.6});
+    nums.forEach(n=>io2.observe(n));
+  </script>
+</body>
+</html>
