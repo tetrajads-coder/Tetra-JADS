@@ -31,8 +31,8 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue'
 .nav-top .nav-link{color:#000000; opacity:.9}
 .nav-top .nav-link:hover{color:#575757}
 .btn-accent{background:var(--accent); color:#fff; border:none}
-.btn-accent:hover{filter:brightness(1.15)}
-.btn-accent-outline{border:1px solid var(--accent); color:#000000}
+.btn-accent:hover{box-shadow: 0 5px 20px 0px rgba(255, 255, 255, 0.295); color: white; background-color: #0069d2;}
+.btn-accent-outline{border:1px solid var(--accent); color:#000000;}
 .btn-accent-outline:hover{background:var(--accent)}
 .navbar .navbar-toggler-icon{
   background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -53,6 +53,7 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue'
 .shape-1{width:320px;height:160px; left:-40px; top:20px; background:radial-gradient(circle at 30% 30%, var(--accent), transparent 70%); animation:float 8s ease-in-out infinite}
 .shape-2{width:160px;height:160px; right:0%; top:0%; background:radial-gradient(circle , #067b35, transparent 70%); animation:float 7.5s ease-in-out -4s infinite}
 .shape-3{width:140px;height:140px; right:25%; bottom:-20px; background:radial-gradient(circle, #4b00ff, transparent 70%); animation:float 7.2s ease-in-out -2s infinite}
+.shape-4{width:320px;height:160px; right:-40px; top:20px; background:radial-gradient(circle at 70% 30%, #067b35, transparent 70%); animation:float 8s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)} 50%{transform:translateY(16px)}}
 
 /* grid cards */
@@ -130,6 +131,18 @@ footer .tiny{color:var(--muted); font-size:.85rem}
 .azul{
   background-color: #d4521b;
   align-content: center;
+  
+}
+.tituloPrincipal {
+  margin-top: -30px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.tituloPrincipal2 {
+  text-align: center;
+
+
 }
 .verde {
   background-color: #067b35;
