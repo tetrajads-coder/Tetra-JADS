@@ -16,9 +16,8 @@
 
   <!-- Nav minimal -->
   <nav class="nav-top container-xxl d-flex align-items-center justify-content-between py-3">
-    <div class="brand d-flex align-items-center gap-3">
-      <img src="img/logo_jads_blaco.png" class="logo_blanco" alt="TETRA-JADS" />
-      <span class="brand-name">TETRA-JADS</span>
+    <div class="brand d-flex align-items-center gap-3 mx-2">
+      <img src="img/logo_jads_negro.png" class="logo_blanco" alt="TETRA-JADS" />
     </div>
 
     <ul class="nav gap-3 d-none d-md-flex">
@@ -54,49 +53,50 @@
   </div>
 
   <!-- HERO -->
-  <header class="hero container-xxl position-relative overflow-hidden">
+  <header class="hero container-xxl position-relative overflow-hidden ">
     <!-- shapes decorativas -->
     <span class="shape shape-1"></span>
     <span class="shape shape-2"></span>
     <span class="shape shape-3"></span>
-
+    <div class="">
     <div class="row align-items-center">
-      <div class="col-lg-7">
-        <h1 class="display-hero reveal">Haz lo<br/>complejo simple</h1>
+      <div class="col cont1 ">
+        <h1 class="display-hero reveal mx-2">Haz lo<br/>complejo simple</h1>
       </div>
-      <div class="col-lg-5">
-        <div class="hero-side reveal-delay">
+      <div class="col-lg-4 mx-4 ">
+        <div class="hero-side">
           <div class="accent-line"></div>
           <p class="lead">
             Creamos software que transforma negocios. Desde prototipos rápidos hasta
             plataformas escalables, combinamos diseño, datos e ingeniería para entregar valor real.
           </p>
-          <a href="#hacemos" class="link-cta">
+          <a href="#hacemos" class="link-cta azulito">
             Descubre lo que hacemos <i class="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
       </div>
     </div>
+    </div>
   </header>
-
+  
   <!-- LO QUE HACEMOS (cards) -->
-  <section id="hacemos" class="container-xxl my-5">
-    <div class="grid-cards">
+  <section id="hacemos" class="container-xxl  ">
+    <div class="grid-cards justify-content-center ">
       <article class="card-spot reveal">
         <div class="tag">SERVICIO</div>
         <h3>Software a la medida</h3>
         <p>Aplicaciones web, backends, paneles admin, integraciones y seguridad.</p>
-        <a href="servicios.html" class="btn btn-accent">Ver detalle</a>
+        <a href="#portafolio" class="btn btn-accent">Ver detalle</a>
       </article>
 
-      <article class="card-spot reveal-delay">
+      <article class="card-spot reveal">
         <div class="tag">SERVICIO</div>
         <h3>Cloud & DevOps</h3>
         <p>Microservicios, contenedores, CI/CD y observabilidad para escalar sin fricción.</p>
         <a href="proyecto.html" class="btn btn-accent">Caso de éxito</a>
       </article>
 
-      <article class="card-spot reveal-2">
+      <article class="card-spot reveal">
         <div class="tag">SERVICIO</div>
         <h3>Experiencias de producto</h3>
         <p>UX/UI accesible (AA), performance y analítica con KPIs de negocio.</p>
@@ -104,8 +104,9 @@
       </article>
     </div>
   </section>
-
-  <!-- QUIÉNES SOMOS (Nombre, Servicios, Propósito + Misión/Visión) -->
+<br>
+  <section class="contenedor_1">
+<!-- QUIÉNES SOMOS (Nombre, Servicios, Propósito + Misión/Visión) -->
   <section  class="container-xxl my-6">
     <div class="row g-4">
       <div class="col-lg-6">
@@ -121,7 +122,7 @@
         </p>
         <p class="">
           Nuestro propósito es transformar ideas en <strong>productos tecnológicos de calidad</strong>
-          que ayuden a personas y organizaciones a crecer.
+          que ayuden a emprendedores y organizaciones a crecer.
         </p>
       </div>
       <div class="col-lg-6">
@@ -203,15 +204,19 @@
         <div class="kpi-label">Industrias atendidas</div>
       </div>
     </div>
+    <br>
   </section>
+
+  </section>
+  
 
   <!-- PORTAFOLIO (cards que van a otras páginas) -->
   <section id="portafolio" class="container-xxl my-6">
     <h2 class="section-title reveal">Portafolio</h2>
 
-    <div class="grid-cards">
+    <div class="grid-cards grid-cards2">
       <!-- Card 1 -->
-      <article class="card-spot reveal">
+      <article class="card-spot card-spot2 reveal">
         <img
           src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop"
           class="w-100 rounded-3 mb-3" alt="equipo de desarrollo">
@@ -221,9 +226,9 @@
       </article>
 
       <!-- Card 2 -->
-      <article class="card-spot reveal">
+      <article class="card-spot card-spot2 reveal">
         <img
-          src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop"
+          src="img/Compus4.jpg"
           class="w-100 rounded-3 mb-3" alt="dashboard">
         <h3>Sistema de Gestión de Computadoras en Aula</h3>
         <p> Inventario,  y reportes en tiempo real sobre las computadoras de una institución.</p>
@@ -231,7 +236,7 @@
       </article>
 
       <!-- Card 3 -->
-      <article class="card-spot reveal">
+      <article class="card-spot card-spot2 reveal">
         <img
           src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
           class="w-100 rounded-3 mb-3" alt="codigo">
@@ -240,20 +245,50 @@
         <a href="proyecto3.html#guia" class="btn btn-accent">Ver más</a>
       </article>
     </div>
+    <br>
   </section>
 
   <!-- Contacto -->
-  <footer id="contacto" class="container-xxl my-6 py-5 border-top border-opacity-25 border-secondary">
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-4">
-      <div>
-        <h3 class="mb-2">Hablemos</h3>
-        <p class="text-muted-acc m-0">tetrajads@gmail.com</p>
-        <p class="text-muted-acc">+52 1 55 1838 1648</p>
-        <p class="text-muted-acc">+52 1 55 2740 8391</p>
-      </div>
-      <a class="btn btn-accent" href="mailto:tetrajads@gmail.com">Escríbenos</a>
+  <footer id="contacto" class="footer text-white py-4 px-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start ">
+          <div class="col row text-center text-lg-start ">
+            <div class="col-lg-2 mb-3 ">
+                <h5><i class="fas fa-phone-alt me-2"></i>Teléfonos</h5>
+                <p>+52 1 55 1838 1648</p>
+                <p>+52 1 55 3223 1892</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fas fa-mobile-alt me-2"></i>Celular</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fab fa-whatsapp me-2"></i>WhatsApp</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-envelope me-2"></i>Correo</h5>
+                <p>tetrajads@gmail.com</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-clock me-2"></i>Horario</h5>
+                <p>L-V: 7:00 AM - 3:00 PM</p>
+                <p>Sáb: 7:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+          <div class="footer-content">
+              
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tetrajads@gmail.com&su=Consulta%20desde%20la%20web&body=Hola%2C%20me%20gustaría%20más%20información%20sobre%20sus%20servicios." 
+              target="_blank" 
+              class="btn btn-accent">
+              Contactanos
+            </a>
+            <br>
+            <br>
+            <p>© 2025 Tetra_JADS</p>
+          </div>
     </div>
-    <p class="tiny mt-4">© 2025 TETRA-JADS</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -267,7 +302,7 @@
         if(e.isIntersecting){ e.target.classList.add('in'); }
       });
     }, {threshold:.12});
-    document.querySelectorAll('.reveal, .reveal-delay, .reveal-2').forEach(el=>io.observe(el));
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
     // KPIs count-up
     const nums = document.querySelectorAll('.kpi-num');

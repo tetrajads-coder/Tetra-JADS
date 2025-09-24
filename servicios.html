@@ -3,69 +3,269 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Servicios | TETRA-JADS</title>
+  <title>Saber Share | TETRA-JADS</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-  <header class="py-3 px-4 d-flex justify-content-between align-items-center">
-    <a href="index.html#portafolio" class="btn btn-outline-success">← Volver</a>
-    <h1 class="m-0 fs-4">Servicios de desarrollo</h1>
-    <span></span>
-  </header>
+  <!-- NAV -->
+  <nav class="nav-top container-xxl d-flex align-items-center justify-content-between py-3">
+    <div class="brand d-flex align-items-center gap-3 mx-2">
+      <a href="index.html">
+        <img src="img/logo_jads_negro.png" class="logo_blanco" alt="TETRA-JADS" />
+      </a>
+    </div>
+    <ul class="nav gap-3 d-none d-md-flex">
+      <li class="nav-item"><a href="index.html#hacemos" class="nav-link">Lo que hacemos</a></li>
+      <li class="nav-item"><a href="index.html#sobre" class="nav-link">Quiénes somos</a></li>
+      <li class="nav-item"><a href="index.html#valores" class="nav-link">Valores</a></li>
+      <li class="nav-item"><a href="index.html#numeros" class="nav-link">Números</a></li>
+      <li class="nav-item"><a href="index.html#portafolio" class="nav-link">Portafolio</a></li>
+    </ul>
+    <div class="d-flex align-items-center gap-3">
+      <a href="index.html#contacto" class="btn btn-accent-outline d-none d-md-inline-flex">Contacto</a>
+      <button class="navbar-toggler d-inline-flex d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
 
   <main class="container mb-5">
+    <!-- HERO -->
+    <section class="hero container-xxl text-center p-0 m-0">
+      <h1 class="display-hero tituloP mt-2">SABER SHARE</h1>
+      <p class="lead">"Todos sabemos algo. Comparte lo que sabes, aprende lo que te inspira."</p>
+      <a href="index.html#portafolio" class="btn btn-accent mt-3">← Volver al portafolio</a>
+    </section>
+
+    <!-- INFO PRINCIPAL -->
     <section class="scrollspy-example p-4 rounded-2">
-      <h2 class="mb-3 text-success">PROPUESTA 1</h2>
-      <p>PROBLEMÁTICA: NECESIDAD DE OBTENER DINERO SIENDO MENOR DE EDAD, Y BUSQUEDA DE RESOLUCIÓN DE PROBLEMAS DE MANERA PERSONALIZADA EN UNA APLICACIÓN WEB O EN LÍNEA..</p>
+      <!-- PROBLEMÁTICA -->
+      <div class="card-spot card-spot4">
+        <i class="bi bi-exclamation-triangle-fill"></i><span class="tag"> Problemática</span>
+        <p>Necesidad de obtener dinero siendo menor de edad y búsqueda de resolución de problemas de manera personalizada en una aplicación web o en línea.</p>
+      </div>
 
-      <div class="row g-3 mt-2">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">¿COMO FUNCIONA?</h5>
-              <p class="card-text"> Un usuario se registra y puede comprar algun producto
-                  o servicio, sea un curso el cual se desbloquea cuando se hace el pago
-                  o despues de hacer el pago hacer la solicitud de un video o clase personalizada
-                  A su vez como vendedor, subir tu servicio o producto y esperar si alguien 
-                  compra tu curso o si alguien te asignca o solicita una tarea o producto.</p>
+      <section class="contenedor_1">
+
+
+        <!-- ANTECEDENTES -->
+        <h2 class="section-title mt-5">Antecedentes</h2>
+        <p>Restricciones y limitaciones laborales principalmente en menores de edad, además de la dependencia a herramientas digitales y plataformas web, nos han llevado a buscar alternativas que sean accesibles y personalizadas para generar ingresos y resolver problemas mediante medios tecnológicos.</p>
+
+        <!-- EJEMPLOS DE USO -->
+        <div class="row g-3 mt-4">
+          <div class="col-md-4">
+              <div class="kpi1">
+                <div class="kpi-let" data-target="2">¿Cómo funciona?</div>
+                <div class="kpi-label"> Un usuario se registra y puede comprar algún producto o servicio, sea un curso o una clase personalizada. Como vendedor, subes tu servicio y esperas solicitudes o compras.</div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="kpi1">
+                <div class="kpi-let" data-target="2">Ejemplo Cliente</div>
+                <div class="kpi-label">Alumno con dudas en cálculo integral puede contratar un curso completo ($299 MXN) o una clase personalizada con un tutor especializado.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="kpi1">
+                <div class="kpi-let" data-target="2">Ejemplo Vendedor</div>
+                <div class="kpi-label">Un joven experto en matemáticas publica un curso de integrales. Cada venta le genera 75% de ganancia, además puede ofrecer clases o videos personalizados.</div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Misión y Visión -->
+        <h2 class="section-title mt-5">Misión</h2>
+        <p>Ofrecer una plataforma accesible y segura que conecte talentos y conocimientos, fomentando el aprendizaje mutuo, la generación de ingresos y una comunidad colaborativa.</p>
+
+        <h2 class="section-title mt-4">Visión</h2>
+        <p>Ser la plataforma líder en México que empodere a los jóvenes a generar ingresos y a estudiantes a resolver sus necesidades académicas de manera personalizada, segura y accesible.</p>
+
+        <!-- Objetivos -->
+        <h2 class="section-title mt-5">Objetivos</h2>
+        <ul>
+          <li>Fomentar inclusión generacional en el intercambio de conocimiento.</li>
+          <li>Lograr 3,000 usuarios activos y 1,000 servicios en el primer año.</li>
+          <li>Ingresos sostenibles mediante comisiones por transacción.</li>
+          <li>Promedio de calificación 4.5/5 en servicios ofrecidos.</li>
+          <li>20 categorías activas en los primeros 8 meses.</li>
+        </ul>
+
+      </section>
+
+
+      <!-- Requerimientos -->
+      <h2 class="section-title mt-5">Requerimientos</h2>
+      <div class="accordion acc-dark" id="accordionReq">
+        <!-- Funcionales -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#funcionales">
+              Requerimientos funcionales
+            </button>
+          </h2>
+          <div id="funcionales" class="accordion-collapse collapse show" data-bs-parent="#accordionReq">
+            <div class="accordion-body">
+              <ul>
+                <li>Registro y autenticación de usuarios.</li>
+                <li>Búsqueda de conocimientos/servicios.</li>
+                <li>Calificaciones y comentarios.</li>
+                <li>Mensajería y agenda de servicios.</li>
+                <li>Compatibilidad web y móvil.</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"> EJEMPLO como cliente: </h5>
-              <p class="card-text">Yo como alumno del CecYT 9 tengo la matera de calculo integral, 
-                  como no le estoy entendiendo a mi maestra, yo como alumno
-                  busco a alguien que me pueda ayudar, en la app encuentro un usuario el cual ofrece un curso
-                  de calculo desde cero a un precio de $299 MXN, por otra parte si lo que quiero es un caso especifico
-                  (Integrales por partes )(por ejemplo, contacto al vendedor para que me ayude a resolver mi duda
-                  grabandome un video o ofreciendome una clase personal por un costo establecido.</p>
+        <!-- No Funcionales -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nofuncionales">
+              Requerimientos no funcionales
+            </button>
+          </h2>
+          <div id="nofuncionales" class="accordion-collapse collapse" data-bs-parent="#accordionReq">
+            <div class="accordion-body">
+              <ul>
+                <li>Carga en menos de 3 segundos.</li>
+                <li>Soporte para 500+ usuarios concurrentes.</li>
+                <li>Disponibilidad mínima del 99% mensual.</li>
+                <li>Copias de seguridad diarias.</li>
+                <li>Cumplimiento de accesibilidad WCAG 2.1 AA.</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"> EJEMPLO como vendedor:</h5>
-              <p class="card-text">Yo como vendedor, quiero ganar dinero y soy bueno realizando integrales, por lo cual
-                  grabo un curso de integrales desde cero, y lo publico para que me lo compren por un costo de $299 MXN,
-                  un cliente me lo compra y recibro un 75% de ganancias por esa venta, a su vez si un cliente quiere algun producto o servicio
-                  especializado una clase en linea o una resolucion de un caso específico, se contacta conmigo y acordamos el precio.</p>
+        <!-- Usuario -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#usuario">
+              Requerimientos de usuario
+            </button>
+          </h2>
+          <div id="usuario" class="accordion-collapse collapse" data-bs-parent="#accordionReq">
+            <div class="accordion-body">
+              <ul>
+                <li>El usuario desea registrarse fácilmente y poder ser oferente o aprendiz, sin procesos complicados.</li>
+                <li>El usuario espera poder agendar clases o sesiones directamente desde la app o web, con confirmación directa con el ofertante.</li>
+                <li>El usuario requiere visualizar sus servicios contratados, ofrecidos y calificaciones recibidas.</li>
+                <li>El usuario desea acceder al sistema con su cuenta de correo electrónico.</li>
+                <li>El usuario necesita recibir notificaciones sobre mensajes, calificaciones o cambios en sus servicios contratados.</li>
+                <li>El usuario espera contar con un sistema de pago seguro y transparente, con historial de transacciones.</li>
+                <li>El usuario desea dejar reseñas y calificaciones sobre los servicios recibidos.</li>
+                <li>El usuario espera encontrar contenido inspirador y diverso que lo motive a aprender o enseñar.</li>
+                <li>El usuario desea editar fácilmente su perfil, incluyendo habilidades, intereses y disponibilidad.</li>
+                <li>El usuario desea acceder a estadísticas sobre su actividad: número de clases tomadas, ofrecidas, y calificaciones promedio.</li>
+                <li>El usuario espera poder cancelar o reprogramar servicios con condiciones claras y sin complicaciones.</li>
+                <li>El usuario desea compartir su perfil o servicios en redes sociales para atraer más aprendices o colaboradores.</li>
+                <li>El usuario espera que la plataforma proteja sus datos personales y respete su privacidad.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Negocio -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#negocio">
+              Requerimientos de negocio
+            </button>
+          </h2>
+          <div id="negocio" class="accordion-collapse collapse" data-bs-parent="#accordionReq">
+            <div class="accordion-body">
+              <ul>
+                <li>Democratizar el acceso al conocimiento, permitiendo que cualquier persona pueda enseñar o aprender sin importar su edad o formación académica.</li>
+                <li>Visibilizar saberes no convencionales y fomentar su conocimiento como herramientas válidas de aprendizaje.</li>
+                <li>Optimizar la conexión entre personas que desean compartir conocimiento y quienes buscan aprender, reduciendo tiempos de búsqueda y coordinación.</li>
+                <li>Facilitar la creación de comunidades de aprendizaje intergeneracional.</li>
+                <li>Promover el desarrollo de habilidades en contextos no escolares, con el fin de mejorar la educación informal.</li>
+                <li>Ofrecer trazabilidad de servicios contratados y ofrecidos para fines de seguimiento, evaluación y mejora continua.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="mt-4">
-        <a href="index.html#contacto" class="btn btn-success">Ver todas las ideas </a>
+
+      <!-- Valores -->
+      <h2 class="section-title mt-5">Valores del Proyecto</h2>
+      <div class="values-grid">
+        <div class="value-chip"><i class="bi bi-shield-lock"></i> Seguridad</div>
+        <div class="value-chip"><i class="bi bi-lightbulb"></i> Innovación</div>
+        <div class="value-chip"><i class="bi bi-people"></i> Inclusión</div>
+        <div class="value-chip"><i class="bi bi-bar-chart"></i> Crecimiento</div>
+        <div class="value-chip"><i class="bi bi-currency-dollar"></i> Accesibilidad</div>
+        <div class="value-chip"><i class="bi bi-heart"></i> Confianza</div>
+      </div>
+
+      <!-- KPIs -->
+      <h2 class="section-title mt-5">Indicadores de Éxito</h2>
+      <div class="kpis-grid">
+        <div class="kpi">
+          <div class="kpi-num">3,000+</div>
+          <div class="kpi-label">Usuarios activos</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-num">1,000+</div>
+          <div class="kpi-label">Servicios ofertados</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-num">4.5★</div>
+          <div class="kpi-label">Calificación promedio</div>
+        </div>
+      </div>
+
+      <!-- Botón -->
+      <div class="mt-5">
+        <a href="index.html#portafolio" class="btn btn-success">Ver más proyectos</a>
       </div>
     </section>
   </main>
-
+  <!-- Contacto -->
+  <footer id="contacto" class="footer text-white py-4 px-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start ">
+          <div class="col row text-center text-lg-start ">
+            <div class="col-lg-2 mb-3 ">
+                <h5><i class="fas fa-phone-alt me-2"></i>Teléfonos</h5>
+                <p>+52 1 55 1838 1648</p>
+                <p>+52 1 55 3223 1892</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fas fa-mobile-alt me-2"></i>Celular</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fab fa-whatsapp me-2"></i>WhatsApp</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-envelope me-2"></i>Correo</h5>
+                <p>tetrajads@gmail.com</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-clock me-2"></i>Horario</h5>
+                <p>L-V: 7:00 AM - 3:00 PM</p>
+                <p>Sáb: 7:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+          <div class="footer-content">
+              
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tetrajads@gmail.com&su=Consulta%20desde%20la%20web&body=Hola%2C%20me%20gustaría%20más%20información%20sobre%20sus%20servicios." 
+              target="_blank" 
+              class="btn btn-accent">
+              Contactanos
+            </a>
+            <br>
+            <br>
+            <p>© 2025 Tetra_JADS</p>
+          </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

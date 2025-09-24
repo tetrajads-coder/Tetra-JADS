@@ -9,13 +9,36 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-  <header class="py-3 px-4 d-flex justify-content-between align-items-center shadow-xl rounded-4 bg-dark bg-opacity-75">
-    <a href="index.html#portafolio" class="btn btn-outline-success">← Volver</a>
-    <h1 class="m-0 fs-4">PROYECTO guia para elegir Universidad</h1>
-    <span></span>
-  </header>
+    <!-- NAV de la página principal -->
+  <nav class="nav-top container-xxl d-flex align-items-center justify-content-between py-3 ">
+    <div class="brand d-flex align-items-center gap-3 mx-2">
+      <a href="index.html">
+        <img src="img/logo_jads_negro.png" class="logo_blanco" alt="TETRA-JADS" />
+      </a>
+    </div>
+    <ul class="nav gap-3 d-none d-md-flex">
+      <li class="nav-item"><a href="index.html#hacemos" class="nav-link">Lo que hacemos</a></li>
+      <li class="nav-item"><a href="index.html#sobre" class="nav-link">Quiénes somos</a></li>
+      <li class="nav-item"><a href="index.html#valores" class="nav-link">Valores</a></li>
+      <li class="nav-item"><a href="index.html#numeros" class="nav-link">Números</a></li>
+      <li class="nav-item"><a href="index.html#portafolio" class="nav-link">Portafolio</a></li>
+    </ul>
+    <div class="d-flex align-items-center gap-3">
+      <a href="index.html#contacto" class="btn btn-accent-outline d-none d-md-inline-flex">Contacto</a>
+      <button class="navbar-toggler d-inline-flex d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
 
   <main class="container mb-5">
+
+    <section class="hero container-xxl text-center  p-0 m-0">
+      <h1 class="display-hero tituloP mt-2" >Guía para elegir Universidad</h1>
+      <br>
+      <p class="lead">Un sistema diseñado para ayudar a jóvenes a tomar decisiones informadas sobre su futuro académico.</p>
+      <a href="index.html#portafolio" class="btn btn-accent mt-3">← Volver al portafolio</a>
+    </section>
     <section class="scrollspy-example p-4 rounded-2">
 
       <!-- Carrusel con animación -->
@@ -47,11 +70,11 @@
         </button>
       </div>
 
-      <!-- Caja de texto destacada -->
-      <div class="card-spot mb-4">
-        <span class="tag">Problema</span>
-        <p>La dificultad al momento de elegir una carrera universitaria surge por la presión social y la desinformación.</p>
-      </div>
+    <div class="card-spot card-spot4">
+      <i class="bi bi-exclamation-triangle-fill"></i><span class="tag"> Problema</span>
+      <p>La dificultad al momento de elegir una carrera universitaria surge por la presión social y la desinformación.</p>
+    </div>
+
 
       <!-- Acordeón con estilo oscuro -->
       <div class="accordion mt-4 acc-dark" id="accordionExample">
@@ -140,7 +163,48 @@
 
     </section>
   </main>
-
+  <!-- Contacto -->
+  <footer id="contacto" class="footer text-white py-4 px-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start ">
+          <div class="col row text-center text-lg-start ">
+            <div class="col-lg-2 mb-3 ">
+                <h5><i class="fas fa-phone-alt me-2"></i>Teléfonos</h5>
+                <p>+52 1 55 1838 1648</p>
+                <p>+52 1 55 3223 1892</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fas fa-mobile-alt me-2"></i>Celular</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-2 mb-3">
+                <h5><i class="fab fa-whatsapp me-2"></i>WhatsApp</h5>
+                <p>+52 1 55 2867 9054</p>
+                <p>+52 1 55 2740 8391</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-envelope me-2"></i>Correo</h5>
+                <p>tetrajads@gmail.com</p>
+            </div>
+            <div class="col-lg-3 mb-3">
+                <h5><i class="fas fa-clock me-2"></i>Horario</h5>
+                <p>L-V: 7:00 AM - 3:00 PM</p>
+                <p>Sáb: 7:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+          <div class="footer-content">
+              
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tetrajads@gmail.com&su=Consulta%20desde%20la%20web&body=Hola%2C%20me%20gustaría%20más%20información%20sobre%20sus%20servicios." 
+              target="_blank" 
+              class="btn btn-accent">
+              Contactanos
+            </a>
+            <br>
+            <br>
+            <p>© 2025 Tetra_JADS</p>
+          </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
